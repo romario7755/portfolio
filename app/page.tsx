@@ -560,6 +560,7 @@ const [form, setForm]=useState({
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
+          {/*
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Envoyez-nous un message</h3>
             <form className="space-y-6">
@@ -593,6 +594,8 @@ const [form, setForm]=useState({
               </button>
             </form>
           </div>
+
+*/}
 
           {/* Contact Info */}
           <div className="space-y-8" id="contact">
