@@ -33,9 +33,9 @@ export default function Header() {
             <Link href="#experience" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
               Mes expériences
             </Link>
-              {/* <Link href="#projet" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-              Projets
-            </Link> */}
+               <Link href="#certification" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+               Certification
+            </Link> 
           </nav>
 
           {/* Actions */}
@@ -83,8 +83,8 @@ export default function Header() {
               <Link href="#experience" onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
                 Mes expériences
               </Link>
-              <Link href="#projet" onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
-                Projets
+              <Link href="#certification" onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                 Certification
               </Link>
               
               <div className="border-t border-gray-200 pt-4">

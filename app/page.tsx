@@ -646,10 +646,35 @@ const [form, setForm]=useState({
 
             
           </div>
-        </div>
+         </div>
+          
       </div>
+          
     </div>
-  </div></>
+             
+  </div>
+                  <div className="space-y-8 items-center"  id="certification">
+            <div className="bg-white rounded-3xl p-9 shadow-lg border border-gray-100">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6"> Certification</h3>
+
+              <div className="space-y-6 p-0">
+                
+
+               
+
+                <div className="flex items-start space-x-4 p-15">
+                  <div className="w-100 py-0 h-100 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    
+                  
+                  <Image src="/certificat.png" height={250} width={350} alt="ceret" />
+                 </div>
+               </div>
+              </div>
+            </div>
+
+            
+          </div> 
+  </>
     <Footer />
   </div>
   )
